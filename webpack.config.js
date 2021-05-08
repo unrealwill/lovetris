@@ -11,7 +11,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'src/index.html',
       favicon: './src/favicon.png',
-      filename: 'hatetris.html',
+      filename: 'index.html',
       xhtml: true
     })
   ],
