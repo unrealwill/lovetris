@@ -134,7 +134,7 @@ const HatetrisAi = (options: Options) => (game: Game) => {
         pieceId: Number(pieceId),
         rating: getBestWellRating(well, Number(pieceId), depthRemaining)
       }))
-      .sort((a, b) => a.rating - b.rating)[0]
+      .sort((a, b) => b.rating - a.rating)[0]
 
   return (well: number[]): number =>
     getWorstPieceDetails(well, options.searchDepth).pieceId
