@@ -1,0 +1,174 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption,
+th,
+td {
+	text-align: left;
+	font-weight: normal;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+
+blockquote,
+q {
+	quotes: "" "";
+}
+
+.well__cell {
+	width: 25px;
+	height: 25px;
+	color: white;
+	background-color: black;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.well__cell--bar {
+	border-top: 1px solid red;
+}
+
+.well__cell--manual {
+	cursor: pointer;
+}
+
+.well__cell--landed {
+	background-color: blue;
+}
+
+.well__cell--live {
+	background-color: red;
+}
+
+.game {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	font-family: arial;
+	padding: 50px;
+	display: flex;
+}
+
+.game__left {
+	flex: 0 0 auto;
+}
+
+.game__right {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.game__paragraph {
+	/* in a flex column, vertical margins do not collapse! */
+	margin-bottom: 10px;
+	flex: 0 0 auto;
+}
+
+.game__paragraph:last-child {
+	margin-bottom: 0;
+}
+
+.game__replay-out {
+	word-break: break-all;
+}
+
+.game__spacer {
+	flex: 1 1 auto;
+}
+
