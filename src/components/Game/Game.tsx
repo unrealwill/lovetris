@@ -506,8 +506,8 @@ class Game extends React.Component<GameProps, GameState> {
         </div>
         <div className='game__right'>
           <p className='game__paragraph'>
-            <a href='http://qntm.org/hatetris'>
-              You&apos;re playing HATETRIS by qntm
+            <a href='https://github.com/unrealwill/lovetris'>
+              You&apos;re playing LOVETRIS by GistNoesis
             </a>
           </p>
 
@@ -543,7 +543,7 @@ class Game extends React.Component<GameProps, GameState> {
           </p>
 
           <p className='game__paragraph'>
-            <a href='https://github.com/qntm/hatetris'>source code</a>
+            <a href='https://github.com/unrealwill/lovetris'>source code</a>
           </p>
 
           <p className='game__paragraph'>
